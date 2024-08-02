@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           
+        }
+        .navbar{
+            background-color: rgb(251,251,251);
+            text-align: center;
+            padding: 5px;
+            position: sticky;
+            top: 0px;
+        
+            z-index: 1;
+    
+        }
+        .navbar a{
+            text-decoration: none;
+            color: black;
+            margin-left:3%;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+        .logo{
+            margin: 0px;
+            height: 80%;
+        
+        }
+        .video{
+            background: center;
+            
+            border: 0;
+        
+        }
+        .categories{
+            font-family: sans-serif;
+            font-size: medium;
+            gap: 20px;
+        }
+        .trending{
+            font-family: sans-serif;
+            font-size: medium;
+            margin-left: 10%;
+        }
+        .denim{
+            font-family: sans-serif;
+            font-size: medium;
+            margin-left: 15%;
+            padding-top: 40px;
+        }
+        .product-item{
+        display: flex;
+        gap: 20px;
+            
+            padding-left: 2%;
+            
+            
+        }
+        .trending-product{
+            margin-left: 13%;
+            display: flex;
+            gap:20px
+            
+        }
+        .denim-styles{
+            display: flex;
+            gap: 20px;
+            padding-left:2% ;
+            margin-left: 15%;
+
+        }
+        .banner{
+            padding-top: 50px;
+            background: center;
+            border: 0;
+        }
+        .lower-header{
+            text-align: center;
+            font-size: medium;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+        .read{
+            text-align: center;
+            font-size: small;
+            font-family: sans-serif;
+            padding: 5px;
+        }
+        .lower-nav{
+            margin-top: 3%;
+        }
+        .lower-nav a{
+            text-decoration: none;
+            color: black;
+            padding: 1%;
+            size: 2rem;
+            margin-top: 2%;
+
+        }
+        .flag{
+            
+        }
+        .footer-line_container{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 9px;
+            font-family: sans-serif;
+            font-size: small;
+            
+            
+        }
+        .footer-line_container h5{
+            font-size: medium;
+            margin-left: 25%;
+        }
+        
+        .news_letter{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .toggle{
+            background-color: black;
+            color: white;
+            padding: 15px 25px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .text{
+            width: 20%;
+            border: none;
+            border-bottom-style:solid ;
+            padding-bottom: 20px;
+            outline: none;
+            -webkit-appearance: none;
+            font-size: 20px;
+        }
+        .subscribe a{
+            color: black;
+        }
+         
+        
+    </style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="">New Arrivals</a>
+        <a href="">Men</a>
+        <a href="">Women</a>
+        <a href="">Junior</a>
+        <a href="">Footwear</a>
+        <a href="">Sale</a>
+<a class="logo" ref=""><img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/logo%402x.png" width="8%"></a>
+        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href=""><i class="fa-regular fa-heart"></i></a>
+        <a href=""><i class="fa-regular fa-user"></i></a>
+        <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"width="1.5%"/></a>
+        <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+        </nav>
+
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Topwear-Desktop-banner_payday.webp" alt="image" width="100%"/>
+    
+    <h2 class="categories">Top Categories</h2>
+    <div class="container">
+        <div class="product-item">
+            <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Denims-Men.webp" width="18%"/>
+            <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Oversized-Men.webp" width="18%"/>
+            <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Striped-Shirts-Men.webp" width="18%"/>
+            <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Tops-%26-Tees-Women.webp" width="18%"/>
+            <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Oversized-Women.Webp" width="18%"/>
+           
+  
+        </div>
+        <h2 class="trending">Trending Now</h2>
+       <div class="trending-product">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/bottoms/8905074965274-18.jpg" width="18%" alt="">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/tops/8905875190523-18.jpg"width="18%" alt="">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/tops/8905875188056-18.jpg"width="18%"  alt="">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/bottoms/8905074978106-18.jpg"width="18%" alt="">
+
+       </div>
+       <h2 class="denim">Denim Styles</h2>
+       <div class="denim-styles">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Denim-color-tiles--blue.webp"width="18%" alt="">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Denim-color-tiles-black-2.webp" width="18%" alt="">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Denim-color-tiles--grey.webp"width="18%" alt="">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Denim-color-tiles--white.webp"width="18%" alt="">
+
+       </div>
+       <div class="banner">
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Shirts-banner-1+(2)_2607.webp" width="100%"/>
+        <br/>
+        <img src="https://d1pdzcnm6xgxlz.cloudfront.net/content/images/banners/FEB2024/Sneakers_desktop_2607.webp"width="100%"/>
+       </div>
+       <h2 class="read">Read More....</h2>
+       <h1 class="lower-header">Shop the latest Jeans For Men & Women Online at Pepe Jeans India.</h1>
+       <div class="lower-nav">
+        <a href=""><i class="fa-regular fa-face-smile"></i></a>
+        <a href="">Follow us on</a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+       </div>
+       <div class="news_letter">
+        <div class="newsletter_text">
+        <h1>Pepe Jeans Newsletter</h1>
+        <p>Have you signed up for our newsletter yet? Be the first to hear about exclusive offers,<br/>new drops, and much more.<br/>Subscribe now!</p></div>
+            <div class="data">
+        <img id="india-flag-footer" src="https://www.pepejeans.in/on/demandware.static/Sites-MIRAI-Site/-/default/dw61db8c05/images/india-flag-icon.webp" alt="" style="height: 16px; width: 22px;">
+        <span style="margin-right: 0.4375rem; margin-left: 0.4375rem;">India</span>
+        <samp><u>Change</u></samp>
+        </div>
+       </div>
+       <div class="email-continer">
+
+        <p>Please enter your email address:</p>
+        <input class="text" placeholder="store@pepejeans.in">
+        <button class="toggle">SUBSCRIBE</button><br/><br/>
+            <label class="subscribe">
+            <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+            I have read the <a href="#">Privacy Policy. </a> and agree to receive newsletters,offers and personlised communication from Pepe Jeans.
+        </label>
+        </div>
+       <div class="footer-line_container">
+        <div class="help">
+            <h5>Help</h5>
+            <ul  type="none">
+                <li>Contact us</li><br/>
+                <li>Deliveries and returns</li><br/>
+                <li>My Account</li><br/>
+                <li>Check Order</li><br/>
+                <li>FAQs</li><br/>
+            </ul>
+        </div>
+        <div class="quickline">
+            <h5>Quick links</h5>
+            <ul type="none">
+                <li>Newsletter</li><br/>
+                <li>Custom Studio</li><br/>
+                <li>Jeans Fit Guide</li><br/>
+            </ul>
+        </div>
+        <div class="company">
+            <h5>Company</h5>
+            <ul type="none">
+                <li>Special measures</li><br/>
+                <li>About Us</li><br/>
+                <li>Store Locator</li><br/>
+            </ul>
+        </div>
+        <div class="policies">
+            <h5>Policies</h5>
+            <ul type="none">
+                <li>Terms Of Use</li><br/>
+                <li>Privacy Policy</li><br/>
+                <li>Cookie Policy</li><br/>
+            </ul>
+        </div>
+        <div class="copyright">
+            <b>2024</b><p>© Pepe Jeans</p>
+
+        </div>
+       </div>
+
+  </div>  
+</body>
+</html>
